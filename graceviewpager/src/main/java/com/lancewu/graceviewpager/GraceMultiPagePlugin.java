@@ -1,7 +1,7 @@
 package com.lancewu.graceviewpager;
 
-import android.support.annotation.NonNull;
-import android.support.v4.view.ViewPager;
+import androidx.annotation.NonNull;
+import androidx.viewpager.widget.ViewPager;
 
 /**
  * Created by wrs on 2018/8/10.<br>

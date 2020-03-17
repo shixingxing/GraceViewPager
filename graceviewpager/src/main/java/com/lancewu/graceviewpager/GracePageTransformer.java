@@ -1,7 +1,7 @@
 package com.lancewu.graceviewpager;
 
-import android.support.annotation.NonNull;
-import android.support.v4.view.ViewPager;
+import androidx.annotation.NonNull;
+import androidx.viewpager.widget.ViewPager;
 import android.view.View;
 
 import com.lancewu.graceviewpager.util.GraceLog;
@@ -74,7 +74,7 @@ public abstract class GracePageTransformer implements ViewPager.PageTransformer 
      *
      * @param page     页面
      * @param position 修正后的position
-     * @see android.support.v4.view.ViewPager.PageTransformer#transformPage(View, float)
+     * @see ViewPager.PageTransformer#transformPage(View, float)
      */
     public abstract void transformPageWithCorrectPosition(@NonNull View page, float position);
 }

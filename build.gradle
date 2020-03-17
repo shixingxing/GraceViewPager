@@ -33,6 +33,6 @@ ext {
     targetSdkVersion = 28
     minSdkVersion = 21
 
-    appcompat_v7 = "com.android.support:appcompat-v7:$supportVersion"
-    support_v4 = "com.android.support:support-v4:$supportVersion"
+    appcompat_v7 = 'androidx.appcompat:appcompat:1.1.0'
+    support_v4 = 'androidx.legacy:legacy-support-v4:1.0.0'
 }
